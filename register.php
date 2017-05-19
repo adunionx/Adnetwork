@@ -142,7 +142,7 @@ BingLoft Team,
 BingLoft.Com Pvt. Ltd';
     $headers = 'From: BingLoft.Com<natanray321@gmail.com>' . "\r\n" .
     'Reply-To: natanray321@gmail.com' . "\r\n" .
-    'X-Mailer: BingLoft;
+    'X-Mailer: Adsgem;
 
     mail($to, $subject, $message, $headers);
 $_SESSION['adsgem_email']=$email;
