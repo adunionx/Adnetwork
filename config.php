@@ -30,9 +30,9 @@ $download_rewrite='download';  // Rewrite rules, read installation PDF file for 
 $country_name='India';  // Not relly important currently not using in Script
 $country_code='in';  // us ,gb, de, fr etc.. code for itunes store
 $ytapi='
-API 1
-API 2
-API 3
+AIzaSyCK-lPP3Lf6MlTYin7UEOFIkhOwmyio-fA
+AIzaSyCK-lPP3Lf6MlTYin7UEOFIkhOwmyio-fA
+AIzaSyCK-lPP3Lf6MlTYin7UEOFIkhOwmyio-fA
 ';  // Youtube API add new api in new line
 
 /* 
@@ -55,11 +55,11 @@ $top_list='24';  // Max 30
 
 
 $download_option='3';  // 0 to 3 Download Option
-$footer_analytics='ab';  // Analtycs or counter code (don't forgot to replace ' comma with double domma)
+$footer_analytics='in';  // Analtycs or counter code (don't forgot to replace ' comma with double domma)
 $ads_head='';  // Add inside <head> tags
 $adabovesearch='ad';  // Ad above Search box
-$ad_footer='ae';  // Footer Ad
-$ad_link='af';  // Affiliate link on download page
+$ad_footer='ad';  // Footer Ad
+$ad_link='http://bingloft.com';  // Affiliate link on download page
 
 /*
 *
