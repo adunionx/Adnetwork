@@ -216,6 +216,25 @@ CREATE TABLE `manager` (
 
 -- --------------------------------------------------------
 -- 
+-- Table structure for table `staff`
+-- 
+
+DROP TABLE IF EXISTS `staff`;
+CREATE TABLE `staff` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `passd` varchar(100) NOT NULL,
+  `pass` varchar(100) NOT NULL,
+  `phone` varchar(500) NOT NULL,
+  `rank` varchar(100) NOT NULL,
+  `username` varchar(75) NOT NULL,
+  `fullname` varchar(75) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `facebook` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=latin1 COLLATE=latin1;
+
+-- --------------------------------------------------------
+-- 
 -- Table structure for table `msgs`
 -- 
 
